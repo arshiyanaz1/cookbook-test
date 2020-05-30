@@ -24,7 +24,7 @@ function Main() {
           <h1 className='App-title'>Recipe Book</h1>
         </header>
         <div className='row main'>
-          <div className='col-md-4 col-sm-12 left'>
+          <div className='col-md-3 col-sm-12 left'>
             <h4 className='recipe_h'>Recipes</h4>
             {recipes.map((recipe, index) => (
               <h5
