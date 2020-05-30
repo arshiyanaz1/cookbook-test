@@ -2,7 +2,7 @@ import React from 'react';
 
 const SingleRecipe = ({ new_recipe }) => {
   return (
-    <div className='col-md-8 col-sm-12 right'>
+    <div className='col-md-9 col-sm-12 right'>
       <div className='right-inner'>
         {new_recipe && (
           <div className='outer_right'>
