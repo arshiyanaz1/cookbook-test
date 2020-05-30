@@ -10,13 +10,13 @@ const SingleRecipe = ({ new_recipe }) => {
               <div key={index}>
                 <h2 className='heading'>{recipe.recipe.label}</h2>
                 <div className='row'>
-                  <div className='col-md-6 col-sm-12 recipe_container'>
+                  <div className='col-md-4 col-sm-12 recipe_container'>
                     <div className='recipe-img'>
                       <img alt='Food' src={recipe.recipe.image} />
                     </div>
                     <h5 className='desc'>{recipe.recipe.description}</h5>
                   </div>
-                  <div className='col-md-6 col-sm-12'>
+                  <div className='col-md-8 col-sm-12'>
                     <h5>Ingredients:</h5>
                     <ul className='ingredients'>
                       {recipe.recipe.ingredients.map((ingre, index) => (
